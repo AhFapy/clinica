@@ -18,7 +18,7 @@ export default function Home(){
 
             <p className='contacta-text'>En las clínicas de <strong className='strong'>Orbita Med</strong> garantizamos servicios de máxima calidad en Madrid</p>
             <p className='contacta-text'>Contacta con nosotros mediante nuestro número de <strong className='strong'>atención al cliente</strong></p>
-            <a className='was-link' aria-label="Chat on WhatsApp" href="https://wa.me/1XXXXXXXXXX"><img alt="Chat on WhatsApp" src="https://scontent.fbcn7-3.fna.fbcdn.net/v/t39.8562-6/302524815_3448899778679909_2843186333341006023_n.png?_nc_cat=104&ccb=1-7&_nc_sid=6825c5&_nc_ohc=Ln8RhoYZOvwAX-Wqe9R&_nc_ht=scontent.fbcn7-3.fna&oh=00_AfDBTZXm1hJjqJ8PjhSswtfTolVS4ZLV_cUXlB6_JiKh7A&oe=648F268F" />
+            <a className='was-link' aria-label="Chat on WhatsApp" href="https://wa.me/631409169"><img alt="Chat on WhatsApp" src="https://scontent.fbcn7-3.fna.fbcdn.net/v/t39.8562-6/302524815_3448899778679909_2843186333341006023_n.png?_nc_cat=104&ccb=1-7&_nc_sid=6825c5&_nc_ohc=Ln8RhoYZOvwAX-Wqe9R&_nc_ht=scontent.fbcn7-3.fna&oh=00_AfDBTZXm1hJjqJ8PjhSswtfTolVS4ZLV_cUXlB6_JiKh7A&oe=648F268F" />
 </a>
 
           
