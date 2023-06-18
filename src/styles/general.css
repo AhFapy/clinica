@@ -105,6 +105,10 @@ a {
     font-size: 2vw;
 }
 
+.slide-container {
+    background-image: url("https://www.igaleno.com/wp-content/uploads/2021/07/Diferencias-entre-centro-medico-y-clinica.jpg");
+    background-size: cover;
+}
 
 
 .contacta-text {
@@ -118,6 +122,46 @@ a {
 
 .strong {
     color: #0477AC;
+}
+
+.resenyas-main {
+    background-color: transparent;
+    z-index: 1;
+}
+
+.resenya {
+    display: flex;
+    border: 2px solid #000;
+    text-align: center;
+    justify-content: left;
+    flex-direction: row;
+    width: 90rem;
+    height: 20rem;
+    z-index: 2;
+    background-color: white;
+    padding-left: 2rem;
+    padding-right: 4rem;
+}
+
+.resenya-svg {
+    height: 4rem;
+    padding-top: 1.5rem;
+}
+
+.estrella-svg {
+    height: 4rem;
+}
+
+.caption-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 10rem;
+    text-align: center;
+    margin: auto;
+    font-size: 2rem;
+
 }
 
 .btn-llama {
