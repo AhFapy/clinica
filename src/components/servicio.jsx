@@ -2,13 +2,14 @@ import React from 'react'
 
 const Servicio = (props) => {
   const styles = {
-    width: '60vw',
-    height: '60vh',
+    width: '50rem',
+    height: '30rem',
     marginTop: '5vh',
     backgroundColor: 'aqua',
     backgroundImage: `url(${props.img})`,
     backgroundRepeat:"no-repeat",
-    backgroundSize:"cover" 
+    backgroundSize:"cover",
+    fontSize: "2rem",
  }
 
   return (

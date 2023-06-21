@@ -59,7 +59,7 @@ nav {
     text-align: center;
     justify-content: right;
     padding-top: 3.5vh;
-    padding-right: 1vw;
+    padding-right: 2rem;
 }
 
 .nav-link {
@@ -293,7 +293,7 @@ styles {
         z-index: -1;
     }
 
-.contacta-container {
+    .contacta-container {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -302,14 +302,19 @@ styles {
     align-items: center;
     z-index: 1;
     position: absolute;
-    font-size: 2vw;
     text-align: center;
 }
     .contacta-header {
-        font-size: 6vw;
+        font-size: 2.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     .contacta-text {
         font-size: 4vw;
+        font-weight: 400;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
     }
 
     .ubicacion {
@@ -325,30 +330,51 @@ styles {
     }
 
     
-.servicios-container {
-    height: 250vh;
-    width: 100%;
-    background-image: url('https://www.comunidad.madrid/sites/default/files/img/edificios/fachada.jpg');
-    padding-top: 10vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    .servicios-container {
+        height: 100%;
+        width: 100vw;
+        background-image: url('https://www.comunidad.madrid/sites/default/files/img/edificios/fachada.jpg');
+        background-size: cover;
+        padding-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 .servicio {
     text-align: center;
-    width: 100vw;
-    height: 90vh;
+    width: 100%;
+    height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-bottom: 3vw;
-    font-size: 2vw;
+    font-size: 0.5rem;
 }
+
 
 .servicio-h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.resenya {
+    display: flex;
+    border: 2px solid #000;
+    text-align: center;
+    justify-content: left;
+    flex-direction: row;
+    width: 90rem;
+    height: 20rem;
+    z-index: 2;
+    background-color: white;
+    padding-left: 2rem;
+    padding-right: 4rem;
+}
+
+.resenya-svg {
+    height: 10rem;
+    padding-top: 0;
 }
 
 
